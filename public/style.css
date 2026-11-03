@@ -330,7 +330,6 @@ footer.site { border-top: 1px solid var(--line); color: var(--muted); font-size:
 
 /* Tables */
 .table-wrap { overflow-x: auto; }
-.table-wrap.latest { max-height: 640px; overflow: auto; }
 table.data { width: 100%; border-collapse: collapse; font-size: 14px; }
 .data th {
   position: sticky; top: 0; z-index: 1; text-align: left; padding: 9px 12px; white-space: nowrap;
