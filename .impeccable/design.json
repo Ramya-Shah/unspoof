@@ -1,0 +1,790 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T17:03:06.439Z",
+  "title": "Design System: Unspoof",
+  "extensions": {
+    "colorMeta": {
+      "stone-ground": {
+        "role": "neutral",
+        "displayName": "Stone Ground",
+        "canonical": "#F2F3EF",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 117.9)",
+          "oklch(26.4% 0.003 117.9)",
+          "oklch(37.9% 0.005 117.9)",
+          "oklch(49.3% 0.005 117.9)",
+          "oklch(60.7% 0.005 117.9)",
+          "oklch(72.1% 0.005 117.9)",
+          "oklch(83.6% 0.003 117.9)",
+          "oklch(95.0% 0.001 117.9)"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "stone-well": {
+        "role": "neutral",
+        "displayName": "Stone Well",
+        "canonical": "#E8EAE4",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 121.6)",
+          "oklch(26.4% 0.005 121.6)",
+          "oklch(37.9% 0.008 121.6)",
+          "oklch(49.3% 0.008 121.6)",
+          "oklch(60.7% 0.008 121.6)",
+          "oklch(72.1% 0.008 121.6)",
+          "oklch(83.6% 0.005 121.6)",
+          "oklch(95.0% 0.002 121.6)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#D9DBD4",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 119.6)",
+          "oklch(26.4% 0.005 119.6)",
+          "oklch(37.9% 0.009 119.6)",
+          "oklch(49.3% 0.010 119.6)",
+          "oklch(60.7% 0.010 119.6)",
+          "oklch(72.1% 0.009 119.6)",
+          "oklch(83.6% 0.005 119.6)",
+          "oklch(95.0% 0.002 119.6)"
+        ]
+      },
+      "hairline-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "#B9BCB3",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 121.8)",
+          "oklch(26.4% 0.007 121.8)",
+          "oklch(37.9% 0.012 121.8)",
+          "oklch(49.3% 0.013 121.8)",
+          "oklch(60.7% 0.013 121.8)",
+          "oklch(72.1% 0.012 121.8)",
+          "oklch(83.6% 0.007 121.8)",
+          "oklch(95.0% 0.003 121.8)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#15171A",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 258.4)",
+          "oklch(26.4% 0.004 258.4)",
+          "oklch(37.9% 0.006 258.4)",
+          "oklch(49.3% 0.007 258.4)",
+          "oklch(60.7% 0.007 258.4)",
+          "oklch(72.1% 0.006 258.4)",
+          "oklch(83.6% 0.004 258.4)",
+          "oklch(95.0% 0.001 258.4)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#4F545A",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 252.9)",
+          "oklch(26.4% 0.006 252.9)",
+          "oklch(37.9% 0.011 252.9)",
+          "oklch(49.3% 0.012 252.9)",
+          "oklch(60.7% 0.012 252.9)",
+          "oklch(72.1% 0.011 252.9)",
+          "oklch(83.6% 0.006 252.9)",
+          "oklch(95.0% 0.002 252.9)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#62676E",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 256.7)",
+          "oklch(26.4% 0.007 256.7)",
+          "oklch(37.9% 0.012 256.7)",
+          "oklch(49.3% 0.013 256.7)",
+          "oklch(60.7% 0.013 256.7)",
+          "oklch(72.1% 0.012 256.7)",
+          "oklch(83.6% 0.007 256.7)",
+          "oklch(95.0% 0.003 256.7)"
+        ]
+      },
+      "graphite-frame": {
+        "role": "primary",
+        "displayName": "Graphite Frame",
+        "canonical": "#23262B",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 260.7)",
+          "oklch(26.4% 0.006 260.7)",
+          "oklch(37.9% 0.010 260.7)",
+          "oklch(49.3% 0.010 260.7)",
+          "oklch(60.7% 0.010 260.7)",
+          "oklch(72.1% 0.010 260.7)",
+          "oklch(83.6% 0.006 260.7)",
+          "oklch(95.0% 0.002 260.7)"
+        ]
+      },
+      "on-frame": {
+        "role": "primary",
+        "displayName": "On Frame",
+        "canonical": "#F2F3EF",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 117.9)",
+          "oklch(26.4% 0.003 117.9)",
+          "oklch(37.9% 0.005 117.9)",
+          "oklch(49.3% 0.005 117.9)",
+          "oklch(60.7% 0.005 117.9)",
+          "oklch(72.1% 0.005 117.9)",
+          "oklch(83.6% 0.003 117.9)",
+          "oklch(95.0% 0.001 117.9)"
+        ]
+      },
+      "lime-good": {
+        "role": "status",
+        "displayName": "Lime, Good",
+        "canonical": "#B7E234",
+        "tonalRamp": [
+          "oklch(15.0% 0.039 123.1)",
+          "oklch(26.4% 0.106 123.1)",
+          "oklch(37.9% 0.180 123.1)",
+          "oklch(49.3% 0.194 123.1)",
+          "oklch(60.7% 0.194 123.1)",
+          "oklch(72.1% 0.180 123.1)",
+          "oklch(83.6% 0.106 123.1)",
+          "oklch(95.0% 0.039 123.1)"
+        ]
+      },
+      "on-lime": {
+        "role": "status",
+        "displayName": "On Lime",
+        "canonical": "#1E2A05",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 125.8)",
+          "oklch(26.4% 0.033 125.8)",
+          "oklch(37.9% 0.056 125.8)",
+          "oklch(49.3% 0.060 125.8)",
+          "oklch(60.7% 0.060 125.8)",
+          "oklch(72.1% 0.056 125.8)",
+          "oklch(83.6% 0.033 125.8)",
+          "oklch(95.0% 0.012 125.8)"
+        ]
+      },
+      "lime-text": {
+        "role": "status",
+        "displayName": "Lime Text",
+        "canonical": "#3F6A07",
+        "tonalRamp": [
+          "oklch(15.0% 0.026 132.1)",
+          "oklch(26.4% 0.070 132.1)",
+          "oklch(37.9% 0.119 132.1)",
+          "oklch(49.3% 0.128 132.1)",
+          "oklch(60.7% 0.128 132.1)",
+          "oklch(72.1% 0.119 132.1)",
+          "oklch(83.6% 0.070 132.1)",
+          "oklch(95.0% 0.026 132.1)"
+        ]
+      },
+      "orange-check": {
+        "role": "status",
+        "displayName": "Orange, Check",
+        "canonical": "#F39C12",
+        "tonalRamp": [
+          "oklch(15.0% 0.033 69.4)",
+          "oklch(26.4% 0.089 69.4)",
+          "oklch(37.9% 0.151 69.4)",
+          "oklch(49.3% 0.163 69.4)",
+          "oklch(60.7% 0.163 69.4)",
+          "oklch(72.1% 0.151 69.4)",
+          "oklch(83.6% 0.089 69.4)",
+          "oklch(95.0% 0.033 69.4)"
+        ]
+      },
+      "on-orange": {
+        "role": "status",
+        "displayName": "On Orange",
+        "canonical": "#2E1A00",
+        "tonalRamp": [
+          "oklch(15.0% 0.010 70.9)",
+          "oklch(26.4% 0.028 70.9)",
+          "oklch(37.9% 0.048 70.9)",
+          "oklch(49.3% 0.051 70.9)",
+          "oklch(60.7% 0.051 70.9)",
+          "oklch(72.1% 0.048 70.9)",
+          "oklch(83.6% 0.028 70.9)",
+          "oklch(95.0% 0.010 70.9)"
+        ]
+      },
+      "orange-text": {
+        "role": "status",
+        "displayName": "Orange Text",
+        "canonical": "#9A5800",
+        "tonalRamp": [
+          "oklch(15.0% 0.024 62.7)",
+          "oklch(26.4% 0.066 62.7)",
+          "oklch(37.9% 0.112 62.7)",
+          "oklch(49.3% 0.120 62.7)",
+          "oklch(60.7% 0.120 62.7)",
+          "oklch(72.1% 0.112 62.7)",
+          "oklch(83.6% 0.066 62.7)",
+          "oklch(95.0% 0.024 62.7)"
+        ]
+      },
+      "crimson-fix": {
+        "role": "status",
+        "displayName": "Crimson, Fix needed",
+        "canonical": "#D7263D",
+        "tonalRamp": [
+          "oklch(15.0% 0.042 21.1)",
+          "oklch(26.4% 0.114 21.1)",
+          "oklch(37.9% 0.194 21.1)",
+          "oklch(49.3% 0.209 21.1)",
+          "oklch(60.7% 0.209 21.1)",
+          "oklch(72.1% 0.194 21.1)",
+          "oklch(83.6% 0.114 21.1)",
+          "oklch(95.0% 0.042 21.1)"
+        ]
+      },
+      "on-crimson": {
+        "role": "status",
+        "displayName": "On Crimson",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "crimson-text": {
+        "role": "status",
+        "displayName": "Crimson Text",
+        "canonical": "#C21F35",
+        "tonalRamp": [
+          "oklch(15.0% 0.039 21.2)",
+          "oklch(26.4% 0.107 21.2)",
+          "oklch(37.9% 0.181 21.2)",
+          "oklch(49.3% 0.195 21.2)",
+          "oklch(60.7% 0.195 21.2)",
+          "oklch(72.1% 0.181 21.2)",
+          "oklch(83.6% 0.107 21.2)",
+          "oklch(95.0% 0.039 21.2)"
+        ]
+      },
+      "dark-ground": {
+        "role": "neutral",
+        "displayName": "Stone Ground (dark)",
+        "canonical": "#121416",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 248.1)",
+          "oklch(26.4% 0.003 248.1)",
+          "oklch(37.9% 0.005 248.1)",
+          "oklch(49.3% 0.005 248.1)",
+          "oklch(60.7% 0.005 248.1)",
+          "oklch(72.1% 0.005 248.1)",
+          "oklch(83.6% 0.003 248.1)",
+          "oklch(95.0% 0.001 248.1)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Card White (dark)",
+        "canonical": "#1A1D20",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 248.1)",
+          "oklch(26.4% 0.004 248.1)",
+          "oklch(37.9% 0.007 248.1)",
+          "oklch(49.3% 0.007 248.1)",
+          "oklch(60.7% 0.007 248.1)",
+          "oklch(72.1% 0.007 248.1)",
+          "oklch(83.6% 0.004 248.1)",
+          "oklch(95.0% 0.001 248.1)"
+        ]
+      },
+      "dark-well": {
+        "role": "neutral",
+        "displayName": "Stone Well (dark)",
+        "canonical": "#23272B",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 248.2)",
+          "oklch(26.4% 0.005 248.2)",
+          "oklch(37.9% 0.009 248.2)",
+          "oklch(49.3% 0.009 248.2)",
+          "oklch(60.7% 0.009 248.2)",
+          "oklch(72.1% 0.009 248.2)",
+          "oklch(83.6% 0.005 248.2)",
+          "oklch(95.0% 0.002 248.2)"
+        ]
+      },
+      "dark-hairline": {
+        "role": "neutral",
+        "displayName": "Hairline (dark)",
+        "canonical": "#2E3338",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 248.2)",
+          "oklch(26.4% 0.006 248.2)",
+          "oklch(37.9% 0.010 248.2)",
+          "oklch(49.3% 0.011 248.2)",
+          "oklch(60.7% 0.011 248.2)",
+          "oklch(72.1% 0.010 248.2)",
+          "oklch(83.6% 0.006 248.2)",
+          "oklch(95.0% 0.002 248.2)"
+        ]
+      },
+      "dark-hairline-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong (dark)",
+        "canonical": "#41474D",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 248.2)",
+          "oklch(26.4% 0.007 248.2)",
+          "oklch(37.9% 0.012 248.2)",
+          "oklch(49.3% 0.013 248.2)",
+          "oklch(60.7% 0.013 248.2)",
+          "oklch(72.1% 0.012 248.2)",
+          "oklch(83.6% 0.007 248.2)",
+          "oklch(95.0% 0.003 248.2)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Ink (dark)",
+        "canonical": "#E9EBE6",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 124.5)",
+          "oklch(26.4% 0.004 124.5)",
+          "oklch(37.9% 0.006 124.5)",
+          "oklch(49.3% 0.007 124.5)",
+          "oklch(60.7% 0.007 124.5)",
+          "oklch(72.1% 0.006 124.5)",
+          "oklch(83.6% 0.004 124.5)",
+          "oklch(95.0% 0.001 124.5)"
+        ]
+      },
+      "dark-ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft (dark)",
+        "canonical": "#A9AEB3",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 247.9)",
+          "oklch(26.4% 0.005 247.9)",
+          "oklch(37.9% 0.008 247.9)",
+          "oklch(49.3% 0.009 247.9)",
+          "oklch(60.7% 0.009 247.9)",
+          "oklch(72.1% 0.008 247.9)",
+          "oklch(83.6% 0.005 247.9)",
+          "oklch(95.0% 0.002 247.9)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Muted (dark)",
+        "canonical": "#969CA2",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 248.0)",
+          "oklch(26.4% 0.006 248.0)",
+          "oklch(37.9% 0.010 248.0)",
+          "oklch(49.3% 0.011 248.0)",
+          "oklch(60.7% 0.011 248.0)",
+          "oklch(72.1% 0.010 248.0)",
+          "oklch(83.6% 0.006 248.0)",
+          "oklch(95.0% 0.002 248.0)"
+        ]
+      },
+      "dark-frame": {
+        "role": "primary",
+        "displayName": "Graphite Frame (dark)",
+        "canonical": "#3A3F46",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 256.8)",
+          "oklch(26.4% 0.008 256.8)",
+          "oklch(37.9% 0.013 256.8)",
+          "oklch(49.3% 0.014 256.8)",
+          "oklch(60.7% 0.014 256.8)",
+          "oklch(72.1% 0.013 256.8)",
+          "oklch(83.6% 0.008 256.8)",
+          "oklch(95.0% 0.003 256.8)"
+        ]
+      },
+      "dark-on-frame": {
+        "role": "primary",
+        "displayName": "On Frame (dark)",
+        "canonical": "#E9EBE6",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 124.5)",
+          "oklch(26.4% 0.004 124.5)",
+          "oklch(37.9% 0.006 124.5)",
+          "oklch(49.3% 0.007 124.5)",
+          "oklch(60.7% 0.007 124.5)",
+          "oklch(72.1% 0.006 124.5)",
+          "oklch(83.6% 0.004 124.5)",
+          "oklch(95.0% 0.001 124.5)"
+        ]
+      },
+      "dark-lime-good": {
+        "role": "status",
+        "displayName": "Lime, Good (dark)",
+        "canonical": "#C5F04A",
+        "tonalRamp": [
+          "oklch(15.0% 0.038 123.0)",
+          "oklch(26.4% 0.105 123.0)",
+          "oklch(37.9% 0.178 123.0)",
+          "oklch(49.3% 0.192 123.0)",
+          "oklch(60.7% 0.192 123.0)",
+          "oklch(72.1% 0.178 123.0)",
+          "oklch(83.6% 0.105 123.0)",
+          "oklch(95.0% 0.038 123.0)"
+        ]
+      },
+      "dark-on-lime": {
+        "role": "status",
+        "displayName": "On Lime (dark)",
+        "canonical": "#1E2A05",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 125.8)",
+          "oklch(26.4% 0.033 125.8)",
+          "oklch(37.9% 0.056 125.8)",
+          "oklch(49.3% 0.060 125.8)",
+          "oklch(60.7% 0.060 125.8)",
+          "oklch(72.1% 0.056 125.8)",
+          "oklch(83.6% 0.033 125.8)",
+          "oklch(95.0% 0.012 125.8)"
+        ]
+      },
+      "dark-lime-text": {
+        "role": "status",
+        "displayName": "Lime Text (dark)",
+        "canonical": "#C5F04A",
+        "tonalRamp": [
+          "oklch(15.0% 0.038 123.0)",
+          "oklch(26.4% 0.105 123.0)",
+          "oklch(37.9% 0.178 123.0)",
+          "oklch(49.3% 0.192 123.0)",
+          "oklch(60.7% 0.192 123.0)",
+          "oklch(72.1% 0.178 123.0)",
+          "oklch(83.6% 0.105 123.0)",
+          "oklch(95.0% 0.038 123.0)"
+        ]
+      },
+      "dark-orange-check": {
+        "role": "status",
+        "displayName": "Orange, Check (dark)",
+        "canonical": "#F5A623",
+        "tonalRamp": [
+          "oklch(15.0% 0.032 73.0)",
+          "oklch(26.4% 0.087 73.0)",
+          "oklch(37.9% 0.147 73.0)",
+          "oklch(49.3% 0.159 73.0)",
+          "oklch(60.7% 0.159 73.0)",
+          "oklch(72.1% 0.147 73.0)",
+          "oklch(83.6% 0.087 73.0)",
+          "oklch(95.0% 0.032 73.0)"
+        ]
+      },
+      "dark-on-orange": {
+        "role": "status",
+        "displayName": "On Orange (dark)",
+        "canonical": "#2E1A00",
+        "tonalRamp": [
+          "oklch(15.0% 0.010 70.9)",
+          "oklch(26.4% 0.028 70.9)",
+          "oklch(37.9% 0.048 70.9)",
+          "oklch(49.3% 0.051 70.9)",
+          "oklch(60.7% 0.051 70.9)",
+          "oklch(72.1% 0.048 70.9)",
+          "oklch(83.6% 0.028 70.9)",
+          "oklch(95.0% 0.010 70.9)"
+        ]
+      },
+      "dark-orange-text": {
+        "role": "status",
+        "displayName": "Orange Text (dark)",
+        "canonical": "#F5A623",
+        "tonalRamp": [
+          "oklch(15.0% 0.032 73.0)",
+          "oklch(26.4% 0.087 73.0)",
+          "oklch(37.9% 0.147 73.0)",
+          "oklch(49.3% 0.159 73.0)",
+          "oklch(60.7% 0.159 73.0)",
+          "oklch(72.1% 0.147 73.0)",
+          "oklch(83.6% 0.087 73.0)",
+          "oklch(95.0% 0.032 73.0)"
+        ]
+      },
+      "dark-crimson-fix": {
+        "role": "status",
+        "displayName": "Crimson, Fix needed (dark)",
+        "canonical": "#FF5468",
+        "tonalRamp": [
+          "oklch(15.0% 0.041 17.9)",
+          "oklch(26.4% 0.113 17.9)",
+          "oklch(37.9% 0.191 17.9)",
+          "oklch(49.3% 0.206 17.9)",
+          "oklch(60.7% 0.206 17.9)",
+          "oklch(72.1% 0.191 17.9)",
+          "oklch(83.6% 0.113 17.9)",
+          "oklch(95.0% 0.041 17.9)"
+        ]
+      },
+      "dark-on-crimson": {
+        "role": "status",
+        "displayName": "On Crimson (dark)",
+        "canonical": "#2A0008",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 13.7)",
+          "oklch(26.4% 0.040 13.7)",
+          "oklch(37.9% 0.067 13.7)",
+          "oklch(49.3% 0.073 13.7)",
+          "oklch(60.7% 0.073 13.7)",
+          "oklch(72.1% 0.067 13.7)",
+          "oklch(83.6% 0.040 13.7)",
+          "oklch(95.0% 0.015 13.7)"
+        ]
+      },
+      "dark-crimson-text": {
+        "role": "status",
+        "displayName": "Crimson Text (dark)",
+        "canonical": "#FF7A8A",
+        "tonalRamp": [
+          "oklch(15.0% 0.032 14.5)",
+          "oklch(26.4% 0.089 14.5)",
+          "oklch(37.9% 0.151 14.5)",
+          "oklch(49.3% 0.162 14.5)",
+          "oklch(60.7% 0.162 14.5)",
+          "oklch(72.1% 0.151 14.5)",
+          "oklch(83.6% 0.089 14.5)",
+          "oklch(95.0% 0.032 14.5)"
+        ]
+      }
+    },
+    "modes": {
+      "light": "default :root tokens",
+      "dark": "@media (prefers-color-scheme: dark) swaps every role to its dark-* token; primary button becomes lime with dark-on-lime text; input border becomes dark-hairline-strong with lime caret; brand tile and admin chart bars use dark-frame / lime"
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page question only; 30px on phones."
+      },
+      "score": {
+        "displayName": "Score",
+        "purpose": "The disc number on the inspection card; 48px on phones."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The verdict on the card."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section titles (Your four checks, What we check)."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Check names in the list, with a muted 500 sub-label."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Summaries, capped at 62ch; tabular numerals globally."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One-line intro under the display, ink-soft, max 34em."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Badges, card footer, small UI text."
+      },
+      "band-label": {
+        "displayName": "Band Label",
+        "purpose": "Uppercase tracked text on the card's graphite band only."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Raw DNS records and fact chips."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 4px color-mix(in srgb, var(--lime) 70%, transparent)",
+        "purpose": "Domain input focus ring only. The system has no elevation shadows."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Stamp and band-fill easing."
+      },
+      {
+        "name": "stamp",
+        "value": "0.55s ease-out; from transform: scale(1.1) rotate(-6deg)",
+        "purpose": "Disc settles once when a result lands."
+      },
+      {
+        "name": "band-fill",
+        "value": "0.7s ease-out; clip-path inset(0 100% 0 0) to inset(0)",
+        "purpose": "Active scale band sweeps in left to right, once per result."
+      },
+      {
+        "name": "pulse",
+        "value": "1.2s ease-in-out infinite; background to hairline at 50%",
+        "purpose": "Disc while loading."
+      },
+      {
+        "name": "hover",
+        "value": "background 0.15s",
+        "purpose": "Button hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce) removes stamp, band-fill, pulse and smooth scroll",
+        "purpose": "Accessibility guard on every animation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "900px",
+        "purpose": "Two columns collapse; card moves under the input."
+      },
+      {
+        "name": "phone",
+        "value": "520px",
+        "purpose": "16px gutter, stacked form, 112px disc, single-column explainer."
+      },
+      {
+        "name": "admin-tiles",
+        "value": "760px",
+        "purpose": "Admin stat tiles go 5 to 2 columns."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Graphite submit button; lime in dark mode.",
+      "html": "<button class=\"ds-btn-primary\">Check domain</button>",
+      "css": ".ds-btn-primary { height: 52px; padding: 0 22px; font: 700 17px 'Public Sans', system-ui, sans-serif; color: var(--on-frame, #F2F3EF); background: var(--frame, #23262B); border: 0; border-radius: 8px; cursor: pointer; transition: background .15s; } .ds-btn-primary:hover { background: #000; } .ds-btn-primary:focus-visible { outline: 2px solid var(--ink, #15171A); outline-offset: 2px; } .ds-btn-primary:disabled { cursor: progress; opacity: .75; } @media (prefers-color-scheme: dark) { .ds-btn-primary { background: var(--lime, #C5F04A); color: var(--on-lime, #1E2A05); } .ds-btn-primary:hover { background: #D6F77A; } }"
+    },
+    {
+      "name": "Domain Input",
+      "kind": "input",
+      "refersTo": "input-domain",
+      "description": "The single domain field; graphite border, lime focus halo.",
+      "html": "<input class=\"ds-input-domain\" type=\"text\" placeholder=\"yourcompany.com\">",
+      "css": ".ds-input-domain { height: 52px; padding: 0 16px; font: 500 18px 'Public Sans', system-ui, sans-serif; color: var(--ink, #15171A); background: var(--surface, #FFFFFF); border: 2px solid var(--frame, #23262B); border-radius: 8px; caret-color: var(--frame, #23262B); } .ds-input-domain::placeholder { color: var(--muted, #62676E); } .ds-input-domain:focus { outline: none; border-color: var(--frame, #23262B); box-shadow: 0 0 0 4px color-mix(in srgb, var(--lime, #B7E234) 70%, transparent); } @media (prefers-color-scheme: dark) { .ds-input-domain { border-color: var(--line-strong, #41474D); caret-color: var(--lime, #C5F04A); } }"
+    },
+    {
+      "name": "Status Badges",
+      "kind": "chip",
+      "refersTo": "badge-good",
+      "description": "Good / Check / Fix needed: solid fill, drawn SVG icon, word. Never colour alone.",
+      "html": "<span class=\"ds-badge ds-pass\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"8\" r=\"7.5\"/><path d=\"m4.5 8.2 2.3 2.3 4.7-5\"/></svg>Good</span> <span class=\"ds-badge ds-warn\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"8\" r=\"7.5\"/><path d=\"M8 4.2v4.6M8 11.4v.1\"/></svg>Check</span> <span class=\"ds-badge ds-fail\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"8\" r=\"7.5\"/><path d=\"m5.2 5.2 5.6 5.6M10.8 5.2l-5.6 5.6\"/></svg>Fix needed</span>",
+      "css": ".ds-badge { display: inline-flex; align-items: center; gap: 6px; font: 700 13px 'Public Sans', system-ui, sans-serif; padding: 4px 12px 4px 5px; border-radius: 999px; } .ds-badge svg { width: 18px; height: 18px; } .ds-badge svg circle { fill: currentColor; } .ds-badge svg path { fill: none; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; } .ds-pass { background: var(--lime, #B7E234); color: var(--on-lime, #1E2A05); } .ds-pass svg path { stroke: var(--lime, #B7E234); } .ds-warn { background: var(--orange, #F39C12); color: var(--on-orange, #2E1A00); } .ds-warn svg path { stroke: var(--orange, #F39C12); } .ds-fail { background: var(--crimson, #D7263D); color: var(--on-crimson, #FFFFFF); } .ds-fail svg path { stroke: var(--crimson, #D7263D); }"
+    },
+    {
+      "name": "Inspection Card",
+      "kind": "card",
+      "refersTo": "inspection-card",
+      "description": "Signature: graphite-framed grade card with band, verdict-coloured disc, five-band scale and dashed footer.",
+      "html": "<article class=\"ds-inspect ds-status-warn\"><div class=\"ds-band\">Email spoofing inspection</div><div class=\"ds-body\"><div class=\"ds-disc\"><span class=\"ds-num\">62</span><span class=\"ds-of\">out of 100</span></div><div><h2 class=\"ds-verdict\">Not protected yet</h2><p class=\"ds-meaning\">Email that fakes your name still gets delivered.</p></div></div><ol class=\"ds-scale\"><li>0–24</li><li>25–49</li><li class=\"ds-on\">50–74</li><li>75–89</li><li>90–100</li></ol><footer class=\"ds-foot\"><span>yourcompany.com</span><span>Inspected 3 Nov 2026</span></footer></article>",
+      "css": ".ds-inspect { max-width: 440px; background: var(--surface, #FFFFFF); color: var(--ink, #15171A); border: 6px solid var(--frame, #23262B); border-radius: 14px; overflow: hidden; font-family: 'Public Sans', system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-band { background: var(--frame, #23262B); color: var(--on-frame, #F2F3EF); padding: 10px 22px 14px; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; } .ds-body { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: center; padding: 26px 22px 22px; } .ds-disc { width: 148px; height: 148px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; } .ds-num { font-size: 64px; font-weight: 800; line-height: 1; letter-spacing: -0.03em; } .ds-of { font-size: 13px; font-weight: 600; margin-top: 4px; } .ds-verdict { font-size: 26px; line-height: 1.12; font-weight: 800; letter-spacing: -0.015em; margin: 0; } .ds-meaning { color: var(--ink-2, #4F545A); margin: 10px 0 0; font-size: 15px; } .ds-scale { list-style: none; display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; margin: 0 22px 18px; padding: 0; } .ds-scale li { height: 30px; display: grid; place-items: center; border-radius: 4px; background: var(--surface-2, #E8EAE4); font-size: 12px; font-weight: 600; color: var(--muted, #62676E); } .ds-foot { display: flex; justify-content: space-between; gap: 12px; padding: 14px 22px; border-top: 1px dashed var(--line-strong, #B9BCB3); font-size: 13px; color: var(--muted, #62676E); } .ds-status-warn .ds-disc, .ds-status-warn .ds-on { background: var(--orange, #F39C12); color: var(--on-orange, #2E1A00); } .ds-status-pass .ds-disc, .ds-status-pass .ds-on { background: var(--lime, #B7E234); color: var(--on-lime, #1E2A05); } .ds-status-fail .ds-disc, .ds-status-fail .ds-on { background: var(--crimson, #D7263D); color: var(--on-crimson, #FFFFFF); } @keyframes ds-stamp { from { transform: scale(1.1) rotate(-6deg); } to { transform: none; } } .ds-inspect:hover .ds-disc { animation: ds-stamp .55s cubic-bezier(.16,1,.3,1); } @media (prefers-reduced-motion: reduce) { .ds-inspect:hover .ds-disc { animation: none; } }"
+    },
+    {
+      "name": "Check Row",
+      "kind": "custom",
+      "refersTo": "check-list",
+      "description": "One row of the urgency-ranked hairline list: name, badge, summary, fix, fact chips, raw record on demand.",
+      "html": "<ol class=\"ds-checks\"><li class=\"ds-row\"><div class=\"ds-head\"><h3>DMARC <span>spoofing policy</span></h3><span class=\"ds-badge-fail\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"8\" r=\"7.5\"/><path d=\"m5.2 5.2 5.6 5.6M10.8 5.2l-5.6 5.6\"/></svg>Fix needed</span></div><p class=\"ds-summary\">No DMARC record, so anyone can send email as you.</p><p class=\"ds-fix\"><strong>Fix:</strong> Add a TXT record at _dmarc.</p><div class=\"ds-facts\"><span class=\"ds-fact\">p=none</span></div><details class=\"ds-details\"><summary>Show record</summary><pre>No record found.</pre></details></li></ol>",
+      "css": ".ds-checks { list-style: none; margin: 0; padding: 0; background: var(--surface, #FFFFFF); border: 1px solid var(--line, #D9DBD4); border-radius: 12px; font-family: 'Public Sans', system-ui, sans-serif; color: var(--ink, #15171A); } .ds-row { padding: 20px 22px; } .ds-row + .ds-row { border-top: 1px solid var(--line, #D9DBD4); } .ds-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; } .ds-row h3 { font-size: 18px; font-weight: 800; margin: 0; } .ds-row h3 span { color: var(--muted, #62676E); font-weight: 500; font-size: 14px; margin-left: 4px; } .ds-badge-fail { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; padding: 4px 12px 4px 5px; border-radius: 999px; background: var(--crimson, #D7263D); color: var(--on-crimson, #FFFFFF); } .ds-badge-fail svg { width: 18px; height: 18px; } .ds-badge-fail circle { fill: currentColor; } .ds-badge-fail path { fill: none; stroke: var(--crimson, #D7263D); stroke-width: 1.9; stroke-linecap: round; } .ds-summary { margin: 8px 0 0; max-width: 62ch; } .ds-fix { margin: 10px 0 0; color: var(--ink-2, #4F545A); font-size: 15px; } .ds-facts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; } .ds-fact { font: 12px/1.6 ui-monospace, Menlo, Consolas, monospace; padding: 1px 8px; border-radius: 4px; background: var(--surface-2, #E8EAE4); color: var(--ink-2, #4F545A); } .ds-details { margin-top: 12px; } .ds-details summary { cursor: pointer; color: var(--ink-2, #4F545A); font-size: 14px; font-weight: 600; } .ds-details summary:hover { color: var(--ink, #15171A); } .ds-details summary:focus-visible { outline: 2px solid var(--ink, #15171A); outline-offset: 2px; } .ds-details pre { margin: 8px 0 0; padding: 12px; background: var(--surface-2, #E8EAE4); border-radius: 6px; font: 13px ui-monospace, Menlo, Consolas, monospace; white-space: pre-wrap; }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "White 60px bar, graphite brand tile with lime tick disc, muted note right.",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-brand\" href=\"#\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"12\" r=\"5.5\" fill=\"#B7E234\"/><path d=\"m9.6 12.1 1.7 1.7 3.2-3.4\" fill=\"none\" stroke=\"#1E2A05\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Unspoof</a><span class=\"ds-note\">Free · reads public DNS only</span></header>",
+      "css": ".ds-topbar { display: flex; align-items: center; gap: 12px; height: 60px; padding: 0 24px; background: var(--surface, #FFFFFF); border-bottom: 1px solid var(--line, #D9DBD4); font-family: 'Public Sans', system-ui, sans-serif; } .ds-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; text-decoration: none; color: var(--frame, #23262B); } .ds-brand:hover { text-decoration: underline; text-underline-offset: 3px; } .ds-brand:focus-visible { outline: 2px solid var(--ink, #15171A); outline-offset: 2px; } .ds-note { margin-left: auto; color: var(--muted, #62676E); font-size: 14px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shop-window Grade Card",
+    "overview": "The result is a posted inspection card, the kind of grade every business owner already reads in a restaurant window. A white card sits in a thick graphite frame, headed by a graphite band label, with one heavy score figure on a solid disc and a five-band scale beneath it. Everything around the card is quiet: pale stone ground, white surfaces, hairline borders, no shadows. The card is the only object with weight on the page.\n\nThe world is graphite plus lime. Graphite carries structure (frame, band, primary button, brand mark); lime, orange and crimson carry verdicts and nothing else. Type is a single family, Public Sans, set heavy (800) for figures and headings and plain (400) for reading, with tabular numerals throughout so scores and counts sit still. Density is moderate: generous column gap, rows separated by hairlines rather than boxes.\n\nIt explicitly refuses the category default of a score ring over a 2x2 grid of identical cards. Checks are a single bordered list ranked by urgency; the grade lives on one card.",
+    "keyCharacteristics": [
+      "One framed inspection card (6px graphite frame, 14px radius) carries the verdict.",
+      "Three far-apart solid status fills, each paired with a drawn SVG icon and a word.",
+      "Pale stone ground, white surfaces, hairlines; flat, no shadows.",
+      "Public Sans only, 800 for figures and headings, tabular numerals everywhere.",
+      "Light and dark token sets via `prefers-color-scheme`; both are first-class."
+    ],
+    "rules": [
+      {
+        "name": "The Three Verdicts Rule",
+        "body": "Good, Check and Fix needed are always lime, orange and crimson solid fills, each with its own drawn SVG icon (tick, exclamation, cross) and its word. Never colour alone, never icon alone, never a tint or outline instead of the solid fill. If two statuses could be confused in greyscale or by a colour-blind reader, the icon and word must still separate them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status-Only Rule",
+        "body": "Lime, orange and crimson mean status. Structure, links and decoration use graphite and neutrals. The two sanctioned exceptions are lime for text selection and the input focus halo.",
+        "section": "colors"
+      },
+      {
+        "name": "The Disc Takes the Verdict Rule",
+        "body": "The score disc and the active scale band are filled with the verdict colour; the rest of the card stays graphite and white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "`font-variant-numeric: tabular-nums` is set on the body; every score, count and date lines up.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Band Rule",
+        "body": "Uppercase tracked text belongs to the inspection band, which is part of the card object. It does not become a section kicker or eyebrow elsewhere.",
+        "section": "typography"
+      },
+      {
+        "name": "The Frame Not Shadow Rule",
+        "body": "If something needs to feel lifted, give it a border or a well, never a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** show every status as solid fill + drawn SVG icon + word: lime/tick/Good, orange/exclamation/Check, crimson/cross/Fix needed.",
+      "**Do** keep graphite for structure (frame, band, primary button) and the three status colours for status only.",
+      "**Do** define every colour through the token set and its `dark-*` counterpart; both modes ship together.",
+      "**Do** keep the page flat: borders, hairlines and stone wells, never shadows.",
+      "**Do** rank checks by urgency in one bordered list and point to the single first fix.",
+      "**Do** guard every animation with `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "**Don't** put a score ring over a 2x2 grid of identical cards; the grade lives on the one framed card.",
+      "**Don't** show status by colour alone, or as a tinted or outlined chip instead of the solid fill.",
+      "**Don't** use lime, orange or crimson for links, headings or decoration.",
+      "**Don't** add drop shadows to cards, the list or buttons.",
+      "**Don't** introduce a second typeface; Public Sans plus the mono stack for raw records is the whole set.",
+      "**Don't** show a score when DNS lookup failed."
+    ]
+  }
+}

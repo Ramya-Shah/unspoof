@@ -1,0 +1,11 @@
+{
+  "name": "email-domain-checker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Free email-domain security checker (DMARC, SPF, DKIM, MX) with a private usage monitor.",
+  "main": "server.js",
+  "engines": { "node": ">=22.15" },
+  "scripts": {
+    "start": "node --use-system-ca server.js"
+  }
+}
