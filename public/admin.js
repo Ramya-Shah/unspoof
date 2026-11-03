@@ -140,10 +140,33 @@ function renderSources(sources) {
 }
 
 let latest = [];
+const isScript = ua => !ua || /\(script\)$/.test(device(ua));
+const sourceName = ref => (source(ref) === 'mail.google.com' ? 'Gmail' : source(ref));
+
+// Keep the source menu in step with the data without losing the current choice.
+function syncSourceOptions() {
+  const select = $('f-source');
+  const chosen = select.value;
+  const names = [...new Set(latest.map(c => sourceName(c.referrer)))].sort();
+  const have = [...select.options].slice(1).map(o => o.value);
+  if (names.join('|') === have.join('|')) return;
+  select.replaceChildren(new Option('All sources', ''), ...names.map(n => new Option(n, n)));
+  select.value = names.includes(chosen) ? chosen : '';
+}
+
 function renderRows() {
   const q = $('filter').value.trim().toLowerCase();
-  const rows = latest.filter(c => !q || [c.domain, source(c.referrer), device(c.ua)].join(' ').toLowerCase().includes(q));
-  $('latest-count').textContent = q ? `${rows.length} of ${latest.length}` : `newest first · ${latest.length}`;
+  const verdict = $('f-verdict').value, src = $('f-source').value, dev = $('f-device').value;
+  const maxAge = Number($('f-time').value) * 1000;
+  const rows = latest.filter(c =>
+    (!q || c.domain.includes(q)) &&
+    (!verdict || scoreStatus(c) === verdict) &&
+    (!src || sourceName(c.referrer) === src) &&
+    (!dev || (dev === 'script') === isScript(c.ua)) &&
+    (!maxAge || Date.now() - new Date(c.ts) <= maxAge));
+  const filtered = Boolean(q || verdict || src || dev || maxAge);
+  $('f-clear').hidden = !filtered;
+  $('latest-count').textContent = filtered ? `${rows.length} of ${latest.length}` : `newest first · ${latest.length}`;
   if (!rows.length) {
     $('rows').innerHTML = `<tr><td colspan="7" class="empty">${latest.length ? 'Nothing matches that filter.' : 'No checks yet.'}</td></tr>`;
     return;
@@ -156,13 +179,19 @@ function renderRows() {
       <td><a class="dom" href="/?d=${encodeURIComponent(c.domain)}" target="_blank" rel="noopener">${esc(c.domain)}</a></td>
       <td class="num">${scorePill(c.score, st)}</td>
       <td class="vcell">${statusIcon(st)}${VERDICT_LABEL[st]}</td>
-      <td>${esc(source(c.referrer) === 'mail.google.com' ? 'Gmail' : source(c.referrer))}</td>
+      <td>${esc(sourceName(c.referrer))}</td>
       <td class="muted" title="${esc(c.ua)}">${esc(device(c.ua))}</td>
       <td class="mono">${esc(c.visitor)}</td>
     </tr>`;
   }).join('');
 }
 $('filter').addEventListener('input', renderRows);
+for (const id of ['f-verdict', 'f-source', 'f-device', 'f-time']) $(id).addEventListener('change', renderRows);
+$('f-clear').addEventListener('click', () => {
+  $('filter').value = '';
+  for (const id of ['f-verdict', 'f-source', 'f-device', 'f-time']) $(id).value = '';
+  renderRows();
+});
 
 // ---------- Load ----------
 
@@ -184,6 +213,7 @@ async function load() {
     renderTop(s.topDomains || []);
     renderSources(s.sources || []);
     latest = s.latest;
+    syncSourceOptions();
     renderRows();
     $('error').hidden = true;
     $('updated').classList.add('on');

@@ -375,3 +375,22 @@ table.data { width: 100%; border-collapse: collapse; font-size: 14px; }
   .search { margin-left: 0; width: 100%; }
   .search input { width: 100%; }
 }
+
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -4px 0 14px; }
+.filters .search { margin-left: 0; }
+.filters .search input { width: 200px; }
+.select select {
+  height: 36px; padding: 0 30px 0 10px; font: inherit; font-size: 14px; color: var(--ink); cursor: pointer;
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='%236E737A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 4.5 3 3 3-3'/%3E%3C/svg%3E") right 10px center / 12px no-repeat;
+  border: 1px solid var(--line-strong); border-radius: var(--radius); appearance: none;
+}
+.select select:focus-visible { outline: none; border-color: var(--frame); box-shadow: 0 0 0 3px color-mix(in srgb, var(--lime) 60%, transparent); }
+.filters .clear {
+  height: 36px; padding: 0 12px; font-size: 14px; font-weight: 600;
+  background: transparent; color: var(--ink-2); border: 1px solid transparent;
+}
+.filters .clear:hover { background: var(--surface-2); color: var(--ink); }
+[data-theme="dark"] .filters .clear { background: transparent; color: var(--ink-2); }
+@media (max-width: 640px) {
+  .filters .search, .select, .select select { width: 100%; }
+}

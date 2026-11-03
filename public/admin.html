@@ -79,11 +79,41 @@
     <section class="panel">
       <header class="panel-head">
         <h2>Latest checks</h2><span id="latest-count">newest first</span>
-        <label class="search"><span class="sr-only">Filter checks</span>
-          <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg>
-          <input id="filter" type="search" placeholder="Filter by domain, source or device" autocomplete="off">
-        </label>
       </header>
+      <div class="filters" role="group" aria-label="Filter latest checks">
+        <label class="search"><span class="sr-only">Search checks</span>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg>
+          <input id="filter" type="search" placeholder="Search domain" autocomplete="off">
+        </label>
+        <label class="select"><span class="sr-only">Verdict</span>
+          <select id="f-verdict">
+            <option value="">All verdicts</option>
+            <option value="pass">Protected</option>
+            <option value="warn">Not protected yet</option>
+            <option value="fail">Open to spoofing</option>
+            <option value="error">Lookup failed</option>
+          </select>
+        </label>
+        <label class="select"><span class="sr-only">Source</span>
+          <select id="f-source"><option value="">All sources</option></select>
+        </label>
+        <label class="select"><span class="sr-only">Device</span>
+          <select id="f-device">
+            <option value="">All devices</option>
+            <option value="browser">Browsers</option>
+            <option value="script">Scripts and bots</option>
+          </select>
+        </label>
+        <label class="select"><span class="sr-only">Time</span>
+          <select id="f-time">
+            <option value="">Any time</option>
+            <option value="3600">Last hour</option>
+            <option value="86400">Last 24 hours</option>
+            <option value="604800">Last 7 days</option>
+          </select>
+        </label>
+        <button type="button" class="clear" id="f-clear" hidden>Clear filters</button>
+      </div>
       <div class="table-wrap latest">
         <table class="data">
           <thead><tr><th>When</th><th>Domain</th><th class="num">Score</th><th>Verdict</th><th>Source</th><th>Device</th><th>Visitor</th></tr></thead>
